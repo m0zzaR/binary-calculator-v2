@@ -24,7 +24,6 @@ public class BinCalc {
 
     public void wholeCalc(int whoNum) {
         
-        String binNum = "";
 
         while (whoNum > 0) {
 
