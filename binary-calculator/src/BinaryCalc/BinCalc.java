@@ -2,10 +2,6 @@ package BinaryCalc;
 public class BinCalc {
 
 
-
-
-
-    
     public int binCalc(String numHolder) {
 
         int c = 1;
@@ -23,6 +19,23 @@ public class BinCalc {
 
             return total;
 
+    }
+
+
+    public void wholeCalc(int whoNum) {
+        
+        String binNum = "";
+
+        while (whoNum > 0) {
+
+            wholeCalc((int) whoNum / 2);
+            System.out.print(whoNum % 2);
+            return;
+
+        }
+        
+
+        
     }
 
     
